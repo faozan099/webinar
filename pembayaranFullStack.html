@@ -28,17 +28,17 @@
             </div>
 <br>
             <div class="alert bg-info-subtle" id="myAlert" style="display: none;">
-              Pembayaran telah berhasil silahkan <a href="setelahMelakukanPembayaran.html" class="alert-click">klik</a> kembali kehalaman awal, keterangan lebih lanjut kami akan kirimkan melalui silahkan cek E-mail anda.
+              Pembayaran telah berhasil silahkan <a href="setelahMelakukanPembayaranFullStack.html" class="alert-click">klik</a> kembali kehalaman awal, keterangan lebih lanjut kami akan mengirimkan melalui E-mail silahkan cek E-mail anda.
             </div>
 <br>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" autofocus required>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" autofocus required autocomplete="off">
             </div>
 <br>
             <div class="form-group">
               <label for="exampleInputNoRekening">No Rekening</label>
-              <input type="text" class="form-control" id="exampleInputNoRekening" placeholder="Enter No Rekening"  required minlength="10" maxlength="16" onkeypress="return hanyaAngka(event)">
+              <input type="text" class="form-control" id="exampleInputNoRekening" placeholder="Enter No Rekening"  required minlength="10" maxlength="16" onkeypress="return hanyaAngka(event)" autocomplete="off">
             </div>
 <br>
             <div class="form-group">
@@ -47,7 +47,7 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp</span>
                 </div>
-                <input type="tel" class="form-control" id="exampleInputNominal" placeholder="Enter nominal" required>
+                <input type="tel" class="form-control" id="exampleInputNominal" placeholder="Enter nominal" required readonly value="200000">
               </div>
             </div>
 <br>
