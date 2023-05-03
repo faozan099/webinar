@@ -19,7 +19,7 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
 
-          <form onsubmit="checkNominal()" action="#">
+          <form action="#">
             <p style="text-align: center; font-size: 20px; margin-top: 40px;">Pilih Pembayaran</p>
             <div class="d.flex row justify-content-center mb-5">
               <img src="bca.png" style="width: 80px;" alt="">
@@ -51,7 +51,7 @@
               </div>
             </div>
 <br>
-            <button class="btn btn-primary text-light" style="float: right;">bayar</button>
+            <button onclick="checkNominal()" type="button" class="btn btn-primary text-light" style="float: right;">bayar</button>
             <span id="error" style="color: red;"></span>
           </form>
         </div>
